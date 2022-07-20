@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+}
+#id1{
+    grid-area: a1;
+}
+#id2{
+    grid-area: a2;
+}
+#idk{
+    grid-area: ak;
+}
+#id3{
+    grid-area: a3;
+}
+#id4{
+    grid-area: a4;
+}
+#art{
+    grid-area: art;
+}
+#id5{
+    grid-area: a5;
+}
+#id6{
+    grid-area: a6;
+}
+#id7{
+    grid-area: a7;
+}
+#id8{
+    grid-area: a8;
+}
+#id9{
+    grid-area: a9;
+}
+#id10{
+    grid-area: a10;
+}
+#id11{
+    grid-area: a11;
+}
+.Navbar{
+    grid-area: hr;
+}
+.Navbar2{
+    grid-area: hr2;
+}
+.top > div{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+}
+#idk{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 35px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.top{
+    display: grid;
+    grid-template-areas: 'a1 a2 . . . ak ak ak . . . a3 a4'
+                          'hr hr hr hr hr hr hr hr hr hr hr hr hr2'
+                          '. . . art a5 a6 a7 a8 a9 a10 a11 . . ';
+    
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box{
+    display: flex;
+    width: 80%;
+    height: 140px;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+#box1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
