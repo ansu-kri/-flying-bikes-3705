@@ -128,7 +128,7 @@ h4{
     display: flex;
     width: 80%;
     height: 450px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     padding: 0 0 60px 0;
     background-color: #FFFFFF;
@@ -136,7 +136,7 @@ h4{
 #container>div{
     width: 50%;
     height: 475px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: 35px;
     background-color: #FFFFFF;
 }
@@ -164,12 +164,238 @@ h4{
     color: #282828;
     margin-top: 20px;
 }
-#container2{
-    display: flex;
-    
+#container1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 12px;
 }
 .img-right{
-    width: 30%;
-    padding: 20px 35px ;
+    width: 40%;
+    padding: 30px 40px ;
 }
+.A1{
+    font-size: 18px;
+    margin-right: 50px;
+}
+#container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 12px;
+}
+.img-right{
+    width: 40%;
+    padding: 30px 40px ;
+}
+#container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 12px;
+}
+.img-right{
+    width: 50%;
+    height:auto
+}
+#A2{
+    margin-top: 20px;
+}
+#A3{
+    margin-top: 20px;
+}
+.S{
+    color: #037362;
+    font-weight: bold;
+}
+#description{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+}
+#description>div{
+    display: flex;
+    width:80%;
+    height: 250px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    padding: 48px 0 48px 0;
+    margin-top: 30px;
+}
+.imageD1{
+    width: 50%;
+    height: 250px;
+    /* border: 1px solid red; */
+}
+.description1{
+    width:50%;
+    height:200px;
+    border-left: #037362;
+    margin-left: 20px;
+}
+.learn{
+    width:100%;
+    height:20px;
+    /* border: 1px solid red; */
+    text-decoration: underline;
+    color: #037362;
+    margin-left: 20px;text-decoration-color: #037362;
+    font-weight: bold;
+}
+.middleH3{
+    width:80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    /* border: 1px solid red; */
+}
+#middle{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 20px;
+    width: 85%;
+    height: 400px;
+    /* border:1px solid red; */
+    margin: auto;
+}
+.middleImg{
+    width: 100%;
+}
+.hr{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline solid rgb(3, 115, 98);
+    color: #037362;
+}
+.para{
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none solid rgb(40, 40, 40);
+    color: #282828;
+}
+#midd{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 20px;
+    width: 85%;
+    height: 500px;
+    /* border:1px solid red; */
+    margin: auto;
+}
+/* footer part */
+
+.frow1{
+    height: 56px;
+    padding-top: 10px;
+    text-align: center;
+    border: 2px solid rgb(201, 197, 197);
+    border-top-color: gray;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(255, 237, 235);
+}
+.r1elem1{
+    float: left;
+    height: 40px;
+    width: 10%;
+}
+#f1id1{
+    margin-left: 10%;
+}
+#f1id2{
+    margin-right: 10%;
+}
+
+.frow2{
+    background-color:rgb(253, 246, 182);
+    background-color: black;
+    color: rgb(223, 221, 221);
+    height: 240px;
+}
+.footer-col{
+    float: left;
+    width: 24%;
+    line-height: 1;
+}
+#fcol1{
+    margin-left: 14%;
+}
+#fcol2{
+    margin-right: 14%;
+}
+
+
+.frow3{
+    height:56px;
+    background-color:rgb(253, 246, 182);
+    background-color:black;
+    color: white;
+    text-align: justify;
+    text-align: center;
+}
+.frow3 > div{
+    float: left;
+}
+.fr3fcol1{
+    width: 40%;
+    height: 44px;
+    text-align: left;
+    margin-left: 10%;
+}
+.icons{
+    width: 20%;
+}
+.icons i{
+    margin: 5%;
+}
+.dollar{
+    width: 30%;
+}
+.cntry{
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+}
+.cntry input{
+    width: 96%;
+    height: 40px;
+    border: 2px solid rgb(201, 199, 199);
+    border-radius: 0px;
+}
+.dlr{
+    width: 65%;
+    float: left;
+}
+.dlr input{
+    width: 60%;
+    height: 40px;
+    border-radius: 0px;
+    border: 2px solid rgb(201, 199, 199);
+}
+
+.flRow{
+    background-color:rgb(248, 246, 246);
+    height: 56px;
+    width: 100%;
+   
+}
+.flRow > div {
+    float: left;
+    width: 15%;
+}
+.lrowcol{
+    text-align: center;
+}
+#bold{
+    border: 1px solid rgb(221, 215, 215);
+}
+/* .h1{
+   font-family: sans-serif;
+} */
+
+
+
+
+
 
