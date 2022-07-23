@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+section{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+    border-bottom: 1px solid grey;
+}
+#di1{
+    display: flex;
+    width: 40%;
+    height: 30px;
+    /* border: 1px solid blue; */
+    margin-top: 30px;
+}
+#di2{
+    width: 20%;
+    height: 30px;
+    /* border: 1px solid red; */
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#di3{
+    display: flex;
+    justify-content: right;
+    width: 40%;
+    height: 30px;
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+}
+.L{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 14px 22px;
+    
+}
+img{
+    width: 200px;
+    /* border:1px solid red */
+
+}
+.D{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.S{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.Se{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.L1{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+#main{
+        width: 350px;
+        height: 600px;
+        border: 1px solid rgb(191, 200, 200);
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .h{
+        text-align: center;
+        font-family: sans-serif;
+        padding: 20px;
+    }
+    input[type=text],input[type=password],input[type=email]{
+        border: 1px solid #DCDEDD;
+        width: 290px;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+
+
+    }
+    .l{
+        font-size: 14px;
+    }
+    button{
+        background-color: #028858;
+        color: white;
+        border: none;
+        padding: 14px 20px;
+        margin: 31px 0px;
+        width: 85%;
+    }
+    b{
+        color: blue;
+    }
+    span{
+        font-size: 14px;
+    }
+   .b{
+        margin-right: 226px ;
+    }
+    .ap{
+        background-color:grey;
+        /* color: white; */
+        border: 1px solid black;
+        
+        border: none;
+        padding: 14px 20px;
+        margin: 20px 22px;
+    width: 76%;
+    border-radius: 10px;
+    }
+    
+
+
+
+</style>
+</head>
+<body>
+    <section>
+        
+        <div id="di1"><p class="D">Discover</p>
+            <a href="#" class="S">Start a project</a>
+        </div>
+        <div id="di2">
+            <img src="https://ksr-static.imgix.net/tq0sfld-kickstarter-logo-green.png?ixlib=rb-2.1.0&auto=compress%2Cformat&w=1000&fit=min&s=f00262bade8a51249b7d63c8f76ce47f" alt="">
+        </div>
+        <div id="di3">
+            <a href="#" class="Se">search</a>
+            <a href="#" class="L1">Log in</a>
+        </div>
+
+        </div><hr>
+        
+    </section>
+        <div id="main">
+            <div class="h">Have an account? <a href="login.html">Login</a></div>
+            <div class="fill">
+                <p>Sign up</p>
+                <input type="text" name="" id="" placeholder="Name"><br>
+                <input type="email" name="" id="" placeholder="Email"><br>
+                <input type="password" name="" id="" placeholder="Password"><br>
+                <input type="checkbox"><label class="l" for="">Send me a weekly mix of handpicked projects, plus occasional Kickstarter news</label><br>
+                <input type="checkbox"><label class="l" for="">Contact me about participating in Kickstarter research</label><br>
+                <button>Create account</button>
+                <div>
+                    <span>By signing up, you agree to our Privacy Policy, Cookie Policy and Terms of Use.</span><br>
+                    <span class="b">read more</span>
+                </div>
+            </div>
+            <div class="h">or</div>
+            
+            <div class="ap"><i class="fa fa-apple  "></i> &nbsp; Sign in with Apple</div>
+     
+    
+        </div>
+</body>
+</html>

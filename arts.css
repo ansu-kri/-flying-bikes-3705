@@ -58,8 +58,8 @@ a{
     padding: 15px;
 }
 #idk{
-    /* margin-bottom: 20px;
-    text-align: center; */
+    margin-bottom: 20px;
+    text-align: center;
     font-weight: bold;
     color: #323232;
     /* background-color: brown; */
@@ -333,51 +333,55 @@ input[type="text"],select,textarea {
 }
 
 .frow3{
-    height:56px;
+    /* display: flex; */
+    width: 100%;
+    height:100px;
     background-color:white;
     /* border: 1px solid red; */
     color:black;
     
 }
-.frow3 > div{
-    float: left;
+.frow3>div{
+    display: flex;
+    width: 90%;
+    height: 90px;
+    /* border: 1px solid blue; */
+    margin: auto;
 }
-.fr3fcol1{
-    width: 40%;
-    height: 44px;
+.k{
+    width:50%;
+    margin-top: 5px;
+    height: 80px;
+    /* border: 1px solid grey; */
 }
-.icons{
-    width: 20%;
+.icon{
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    width:50%;
+    height: 80px;
+    /* border: 1px solid grey; */
 }
-.icons i{
-    margin: 5%;
+.Kimg{
+    margin-top: 20px;
+    width: 4%;
 }
-.dollar{
-    width: 30%;
-}
-.cntry{
-    width: 25%;
-    float: left;
+span{
     margin-left: 10px;
 }
-.cntry input{
-    width: 96%;
-    height: 40px;
-    border: 2px solid rgb(201, 199, 199);
-    border-radius: 0px;
-    margin-right: 40px 40px 0px 0px;
+.Eng{
+    margin-left: 90px;
 }
-.dlr{
-    width: 65%;
-    float: left;
+
+/* a{
+    padding: 13px;
+} */
+input[type=text]{
+    padding: 10px 10px 14px 12px;
+    box-sizing: border-box;
 }
-.dlr input{
-    width: 60%;
-    height: 40px;
-    border-radius: 0px;
-    border: 2px solid rgb(201, 199, 199);
-    
-}
+
+
 .flRow > div {
     background-color: azure;
     float: left;

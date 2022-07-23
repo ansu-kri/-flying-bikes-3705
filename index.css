@@ -66,8 +66,10 @@ a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
+
 .top{
     display: grid;
+    height: 200px;
     grid-template-areas: 'a1 a2 . . . ak ak ak . . . a3 a4'
                           'hr hr hr hr hr hr hr hr hr hr hr hr hr2'
                           '. . . art a5 a6 a7 a8 a9 a10 a11 . . ';
@@ -303,69 +305,75 @@ h4{
     display: flex;
     justify-content: space-evenly;
     background-color:white;
-    margin-top: 40px;
+    margin-top: 10px;
     /* background-color: black; */
     color: black;
     height: 240px;
 }
 .fh4{
-    font-size: 18px;
+    font-size: 13px;
     color: #282828;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-right: 200px;
 }
 .Ap{
     /* margin-top: 15px; */
     font-family: Arial, Helvetica, sans-serif ;
     color: #656969;
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
 .frow3{
-    height:56px;
+    /* display: flex; */
+    width: 100%;
+    height:100px;
     background-color:white;
     /* border: 1px solid red; */
     color:black;
     
 }
-.frow3 > div{
-    float: left;
+.frow3>div{
+    display: flex;
+    width: 90%;
+    height: 90px;
+    /* border: 1px solid blue; */
+    margin: auto;
 }
-.fr3fcol1{
-    width: 40%;
-    height: 44px;
+.k{
+    width:50%;
+    margin-top: 5px;
+    height: 80px;
+    /* border: 1px solid grey; */
 }
-.icons{
-    width: 20%;
+.icon{
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+    width:50%;
+    height: 80px;
+    /* border: 1px solid grey; */
 }
-.icons i{
-    margin: 5%;
+.Kimg{
+    margin-top: 20px;
+    width: 4%;
 }
-.dollar{
-    width: 30%;
-}
-.cntry{
-    width: 25%;
-    float: left;
+span{
     margin-left: 10px;
 }
-.cntry input{
-    width: 96%;
-    height: 40px;
-    border: 2px solid rgb(201, 199, 199);
-    border-radius: 0px;
-    margin-right: 40px 40px 0px 0px;
+.Eng{
+    margin-right: 10px;
 }
-.dlr{
-    width: 65%;
-    float: left;
+/* a{
+    padding: 13px;
+} */
+input[type=text]{
+    padding: 10px 10px 14px 12px;
+    box-sizing: border-box;
 }
-.dlr input{
-    width: 60%;
-    height: 40px;
-    border-radius: 0px;
-    border: 2px solid rgb(201, 199, 199);
-    
-}
+
+
 .flRow > div {
     background-color: azure;
     float: left;
