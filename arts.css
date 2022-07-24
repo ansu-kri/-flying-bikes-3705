@@ -67,6 +67,11 @@ a{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
+.kick{
+    font-size: 25px;
+    color: #037344;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .top{
     display: grid;
     grid-template-areas: 'a1 a2 . . . ak ak ak . . . a3 a4'
